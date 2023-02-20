@@ -51,13 +51,13 @@ ynh_script_progression --message="Adding a configuration file..." --weight=1
 ###
 ### Check the documentation of `ynh_add_config` for more info.
 
-ynh_add_config --template="some_config_file" --destination="$install_dir/some_config_file"
+# ynh_add_config --template="some_config_file" --destination="$install_dir/some_config_file"
 
 # FIXME: this should be handled by the core in the future
 # You may need to use chmod 600 instead of 400,
 # for example if the app is expected to be able to modify its own config
-chmod 400 "$install_dir/some_config_file"
-chown $app:$app "$install_dir/some_config_file"
+# chmod 400 "$install_dir/some_config_file"
+# chown $app:$app "$install_dir/some_config_file"
 
 ### For more complex cases where you want to replace stuff using regexes,
 ### you shoud rely on ynh_replace_string (which is basically a wrapper for sed)
