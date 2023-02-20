@@ -17,7 +17,7 @@ source /usr/share/yunohost/helpers
 ynh_script_progression --message="Setting up source files..." --weight=1
 
 architecture=$YNH_ARCH
-ynh_setup_source --dest_dir="$install_dir" --source_id=$architecture
+ynh_setup_source --dest_dir="$install_dir" --source_id="app_$architecture"
 chown -R $app:www-data "$install_dir"
 
 #=================================================
