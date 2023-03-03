@@ -32,7 +32,7 @@ ynh_remove_nginx_config
 ynh_remove_logrotate
 
 # Remove other various files specific to the app... such as :
-# TODO: sudoers
+ynh_secure_remove --file="/etc/sudoers.d/$app"
 ynh_secure_remove --file="/var/log/$app"
 
 #=================================================

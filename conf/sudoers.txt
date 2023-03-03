@@ -1,0 +1,6 @@
+# This file is supposed to be customized by the olivetin app packager.
+
+# You need to use Cmnd_Alias to ONLY AUTHORIZE specific commands + arguments
+# Here's an example of a permission to run `sudo systemctl restart nginx`:
+# Cmnd_Alias RESTART_NGINX_CMD = /usr/bin/systemctl restart nginx
+# __APP__ (root) = NOPASSWD: RESTART_NGINX_CMD
