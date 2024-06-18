@@ -1,0 +1,30 @@
+# There is a built-in micro proxy that will host the webui and REST API all on
+# one port (this is called the "Single HTTP Frontend") and means you just need
+# one open port in the container/firewalls/etc.
+#
+# Listen on all addresses available, port 1337
+listenAddressSingleHTTPFrontend: 0.0.0.0:1337
+
+# Choose from INFO (default), WARN and DEBUG
+logLevel: "INFO"
+
+showNavigation: false
+
+# Actions (buttons) to show up on the WebUI:
+actions:
+
+- title: Restart nginx
+  icon: '<img width="80px" src="https://nginx.org/nginx.png">'
+  shell: sudo systemctl restart nginx
+
+- title: Restart YunoHost API
+  icon: '<img width="80px" src="https://raw.githubusercontent.com/YunoHost/yunohost-artwork/main/logos/svg/yunohost-logo_black.svg">'
+  shell: sudo systemctl restart yunohost-api
+
+- title: Restart Jellyfin
+  icon: '<img width="80px" src="https://raw.githubusercontent.com/jellyfin/jellyfin-ux/master/branding/SVG/icon-transparent.svg">'
+  shell: sudo systemctl restart jellyfin
+
+- title: Restart IHateMoney
+  icon: '<img width="80px" src="https://raw.githubusercontent.com/YunoHost/apps/master/logos/ihatemoney.png">'
+  shell: sudo systemctl restart ihatemoney
