@@ -1,3 +1,5 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/manifest.v2.schema.json
+
 packaging_format = 2
 
 id = "olivetin"
@@ -10,13 +12,10 @@ version = "2023.02.16~ynh1"
 maintainers = ["Salamandar"]
 
 [upstream]
-# NB: Only the "license" key is mandatory. Remove entries for which there's no relevant data
 license = "free"
 website = "https://www.olivetin.app"
 admindoc = "https://docs.olivetin.app"
 code = "https://github.com/OliveTin/OliveTin"
-# cpe = "???"
-# fund = "???"
 
 [integration]
 yunohost = ">= 11.0.0"
@@ -41,13 +40,22 @@ ram.runtime = "50M"
     default = "admins"
 
 [resources]
+    [resources.sources.main]
+    amd64.url = "https://github.com/OliveTin/OliveTin/releases/download/2023.02.16/OliveTin-linux-amd64.tar.gz"
+    amd64.sha256 = "8f629f8a94eebd9cb54e2e60539161876de4e1193f497447a8da939cc8927409"
+
+    arm64.url = "https://github.com/OliveTin/OliveTin/releases/download/2023.02.16/OliveTin-linux-arm64.tar.gz"
+    arm64.sha256 = "3214cfc9619799529c921200ed580f3e6634aaab1b9c99d48b753ab25699a751"
+
+    autoupdate.strategy = "latest_github_release"
+    autoupdate.asset.amd64 = ".*-linux-amd64.tar.gz"
+    autoupdate.asset.arm64 = ".*-linux-arm64.tar.gz"
+
     [resources.system_user]
+
     [resources.install_dir]
+
     [resources.permissions]
     main.url = "/"
 
     [resources.ports]
-    # [resources.apt]
-    # # This will automatically install/uninstall the following apt packages
-    # # and implicitly define the $phpversion setting as 8.0 (if phpX.Y-foobar dependencies are listed)
-    # packages = "deb1, deb2, php8.0-foo, php8.0-bar"
