@@ -1,6 +1,13 @@
-# This file is supposed to be customized by the olivetin app packager.
+# This file is supposed to be customized by the olivetin app admin.
 
 # You need to use Cmnd_Alias to ONLY AUTHORIZE specific commands + arguments
 # Here's an example of a permission to run `sudo systemctl restart nginx`:
 # Cmnd_Alias RESTART_NGINX_CMD = /usr/bin/systemctl restart nginx
-# __APP__ (root) = NOPASSWD: RESTART_NGINX_CMD
+# __APP__ ALL = (root) NOPASSWD: RESTART_NGINX_CMD
+
+Cmnd_Alias RESTART_NGINX = /usr/bin/systemctl restart nginx
+Cmnd_Alias RESTART_JELLYFIN = /usr/bin/systemctl restart yunohost-api
+Cmnd_Alias RESTART_IHATEMONEY = /usr/bin/systemctl restart jellyfin
+Cmnd_Alias RESTART_PYTITION = /usr/bin/systemctl restart ihatemoney$
+
+__APP__ ALL = (root) NOPASSWD: RESTART_NGINX, RESTART_JELLYFIN, RESTART_IHATEMONEY, RESTART_PYTITION

@@ -10,6 +10,8 @@ logLevel: "INFO"
 
 showNavigation: false
 
+# When editing actions requiring *sudo*, don't forget to edit /etc/sudoers.d/__APP__ !
+
 # Actions (buttons) to show up on the WebUI:
 actions:
 
