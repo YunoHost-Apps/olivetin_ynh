@@ -1,8 +1,6 @@
 #!/bin/bash
 
 #=================================================
-# GENERIC START
-#=================================================
 # IMPORT GENERIC HELPERS
 #=================================================
 
@@ -10,46 +8,39 @@ source _common.sh
 source /usr/share/yunohost/helpers
 
 #=================================================
-# APP "BUILD" (DEPLOYING SOURCES, VENV, COMPILING ETC)
-#=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
 ynh_script_progression --message="Setting up source files..." --weight=1
 
-architecture=$YNH_ARCH
-ynh_setup_source --dest_dir="$install_dir" --source_id="app_$architecture"
-chown -R $app:www-data "$install_dir"
+ynh_setup_source --dest_dir="$install_dir"
+chown -R "$app:www-data" "$install_dir"
 
 #=================================================
 # SYSTEM CONFIGURATION
 #=================================================
-ynh_script_progression --message="Adding system configurations related to $app ..." --weight=1
+ynh_script_progression --message="Adding system configurations related to $app..." --weight=1
 
+# Create a dedicated NGINX config using the conf/nginx.conf template
 ynh_add_nginx_config
-ynh_add_systemd_config
-yunohost service add $app --description="OliveTin service" --log="/var/log/$app/$app.log"
-ynh_use_logrotate
 
-#=================================================
-# APP INITIAL CONFIGURATION
-#=================================================
-# ADD A CONFIGURATION
-#=================================================
-ynh_script_progression --message="Adding the sudoers configuration file..." --weight=1
+# Create a dedicated systemd config
+ynh_add_systemd_config
+yunohost service add "$app" --description="OliveTin service" --log="/var/log/$app/$app.log"
+
+# Use logrotate to manage application logfile(s)
+ynh_use_logrotate
 
 ynh_add_config --template="sudoers.txt" --destination="/etc/sudoers.d/$app"
 chmod 640 "/etc/sudoers.d/$app"
 chown root:root "/etc/sudoers.d/$app"
 
 #=================================================
-# GENERIC FINALIZATION
-#=================================================
 # START SYSTEMD SERVICE
 #=================================================
-ynh_script_progression --message="Starting a systemd service..." --weight=1
+ynh_script_progression --message="Starting $app's systemd service..." --weight=1
 
 # Start a systemd service
-ynh_systemd_action --service_name=$app --action="start" --log_path="/var/log/$app/$app.log"
+ynh_systemd_action --service_name="$app" --action="start" --log_path="/var/log/$app/$app.log"
 
 #=================================================
 # END OF SCRIPT

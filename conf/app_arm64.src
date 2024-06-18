@@ -1,7 +1,0 @@
-SOURCE_URL=https://github.com/OliveTin/OliveTin/releases/download/2023.02.16/OliveTin-linux-arm64.tar.gz
-SOURCE_SUM=3214cfc9619799529c921200ed580f3e6634aaab1b9c99d48b753ab25699a751
-SOURCE_SUM_PRG=sha256sum
-SOURCE_FORMAT=tar.gz
-SOURCE_IN_SUBDIR=true
-SOURCE_FILENAME=
-SOURCE_EXTRACT=true
