@@ -3,7 +3,7 @@
 # one open port in the container/firewalls/etc.
 #
 # Listen on all addresses available, port 1337
-listenAddressSingleHTTPFrontend: 0.0.0.0:1337
+listenAddressSingleHTTPFrontend: 127.0.0.1:1337
 
 # Choose from INFO (default), WARN and DEBUG
 logLevel: "INFO"
