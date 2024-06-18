@@ -13,6 +13,9 @@ source /usr/share/yunohost/helpers
 ynh_script_progression --message="Setting up source files..." --weight=1
 
 ynh_setup_source --dest_dir="$install_dir"
+
+ynh_add_config --template="config.yaml" --destination="$install_dir/config.yaml"
+
 chown -R "$app:www-data" "$install_dir"
 
 #=================================================
