@@ -1,9 +1,13 @@
-# There is a built-in micro proxy that will host the webui and REST API all on
-# one port (this is called the "Single HTTP Frontend") and means you just need
-# one open port in the container/firewalls/etc.
-#
-# Listen on all addresses available, port __PORT__
+# See https://docs.olivetin.app/multi-inst.html for explanation about those ports
+
+# Single frontend point
 listenAddressSingleHTTPFrontend: 127.0.0.1:__PORT__
+# REST Actions port
+listenAddressRestActions: localhost:__PORT_REST__
+# gRPC Actions port
+listenAddressGrpcActions: localhost:__PORT_GRPC__
+# WebUI Port
+listenAddressWebUI: localhost:__PORT_WEBUI__
 
 # Choose from INFO (default), WARN and DEBUG
 logLevel: "INFO"
