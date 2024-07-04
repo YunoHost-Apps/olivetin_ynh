@@ -5,7 +5,7 @@
 
 # YunoHost 上的 OliveTin
 
-[![集成程度](https://dash.yunohost.org/integration/olivetin.svg)](https://dash.yunohost.org/appci/app/olivetin) ![工作状态](https://ci-apps.yunohost.org/ci/badges/olivetin.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/olivetin.maintain.svg)
+[![集成程度](https://dash.yunohost.org/integration/olivetin.svg)](https://ci-apps.yunohost.org/ci/apps/olivetin/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/olivetin.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/olivetin.maintain.svg)
 
 [![使用 YunoHost 安装 OliveTin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=olivetin)
 
@@ -42,7 +42,7 @@ OliveTin gives safe and simple access to predefined shell commands from a web in
 - Good amount of unit tests and style checks - helps potential contributors be consistent, and helps with maintainability.
 
 
-**分发版本：** 2024.06.04~ynh1
+**分发版本：** 2024.06.04~ynh2
 
 ## 截图
 
