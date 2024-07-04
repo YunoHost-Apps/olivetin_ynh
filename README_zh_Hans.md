@@ -5,7 +5,7 @@
 
 # YunoHost 上的 OliveTin
 
-[![集成程度](https://dash.yunohost.org/integration/olivetin.svg)](https://dash.yunohost.org/appci/app/olivetin) ![工作状态](https://ci-apps.yunohost.org/ci/badges/olivetin.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/olivetin.maintain.svg)
+[![集成程度](https://dash.yunohost.org/integration/olivetin.svg)](https://ci-apps.yunohost.org/ci/apps/olivetin/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/olivetin.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/olivetin.maintain.svg)
 
 [![使用 YunoHost 安装 OliveTin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=olivetin)
 

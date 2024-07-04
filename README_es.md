@@ -5,7 +5,7 @@ No se debe editar a mano.
 
 # OliveTin para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/olivetin.svg)](https://dash.yunohost.org/appci/app/olivetin) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/olivetin.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/olivetin.maintain.svg)
+[![Nivel de integración](https://dash.yunohost.org/integration/olivetin.svg)](https://ci-apps.yunohost.org/ci/apps/olivetin/) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/olivetin.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/olivetin.maintain.svg)
 
 [![Instalar OliveTin con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=olivetin)
 
