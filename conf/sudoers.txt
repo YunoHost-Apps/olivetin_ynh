@@ -7,7 +7,7 @@
 
 Cmnd_Alias RESTART_NGINX = /usr/bin/systemctl restart nginx
 Cmnd_Alias RESTART_JELLYFIN = /usr/bin/systemctl restart yunohost-api
-Cmnd_Alias RESTART_IHATEMONEY = /usr/bin/systemctl restart jellyfin
-Cmnd_Alias RESTART_PYTITION = /usr/bin/systemctl restart ihatemoney$
+Cmnd_Alias RESTART_IHATEMONEY = /usr/bin/systemctl restart ihatemoney
+Cmnd_Alias RESTART_YUNOHOST_API = /usr/bin/systemctl restart yunohost-api
 
-__APP__ ALL = (root) NOPASSWD: RESTART_NGINX, RESTART_JELLYFIN, RESTART_IHATEMONEY, RESTART_PYTITION
+__APP__ ALL = (root) NOPASSWD: RESTART_NGINX, RESTART_JELLYFIN, RESTART_IHATEMONEY, RESTART_YUNOHOST_API
