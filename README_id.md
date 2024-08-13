@@ -52,7 +52,7 @@ OliveTin gives safe and simple access to predefined shell commands from a web in
 
 - Website aplikasi resmi: <https://www.olivetin.app>
 - Dokumentasi admin resmi: <https://docs.olivetin.app>
-- Repositori kode aplikasi hulu: <https://github.com/OliveTin/OliveTin>
+- Depot kode aplikasi hulu: <https://github.com/OliveTin/OliveTin>
 - Gudang YunoHost: <https://apps.yunohost.org/app/olivetin>
 - Laporkan bug: <https://github.com/YunoHost-Apps/olivetin_ynh/issues>
 
