@@ -39,10 +39,6 @@ yunohost service add "$app" --description="OliveTin service" --log="/var/log/$ap
 
 ynh_use_logrotate
 
-ynh_add_config --template="sudoers.txt" --destination="/etc/sudoers.d/$app"
-chmod 640 "/etc/sudoers.d/$app"
-chown root:root "/etc/sudoers.d/$app"
-
 #=================================================
 # START SYSTEMD SERVICE
 #=================================================
