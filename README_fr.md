@@ -42,7 +42,7 @@ OliveTin gives safe and simple access to predefined shell commands from a web in
 - Good amount of unit tests and style checks - helps potential contributors be consistent, and helps with maintainability.
 
 
-**Version incluse :** 2024.08.31~ynh1
+**Version incluse :** 2024.09.02~ynh1
 
 ## Captures d’écran
 
