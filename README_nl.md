@@ -1,20 +1,20 @@
 <!--
-Este archivo README esta generado automaticamente<https://github.com/YunoHost/apps/tree/master/tools/readme_generator>
-No se debe editar a mano.
+NB: Deze README is automatisch gegenereerd door <https://github.com/YunoHost/apps/tree/master/tools/readme_generator>
+Hij mag NIET handmatig aangepast worden.
 -->
 
-# OliveTin para Yunohost
+# OliveTin voor Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/olivetin.svg)](https://ci-apps.yunohost.org/ci/apps/olivetin/) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/olivetin.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/olivetin.maintain.svg)
+[![Integratieniveau](https://dash.yunohost.org/integration/olivetin.svg)](https://ci-apps.yunohost.org/ci/apps/olivetin/) ![Mate van functioneren](https://ci-apps.yunohost.org/ci/badges/olivetin.status.svg) ![Onderhoudsstatus](https://ci-apps.yunohost.org/ci/badges/olivetin.maintain.svg)
 
-[![Instalar OliveTin con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=olivetin)
+[![OliveTin met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=olivetin)
 
-*[Leer este README en otros idiomas.](./ALL_README.md)*
+*[Deze README in een andere taal lezen.](./ALL_README.md)*
 
-> *Este paquete le permite instalarOliveTin rapidamente y simplement en un servidor YunoHost.*  
-> *Si no tiene YunoHost, visita [the guide](https://yunohost.org/install) para aprender como instalarla.*
+> *Met dit pakket kun je OliveTin snel en eenvoudig op een YunoHost-server installeren.*  
+> *Als je nog geen YunoHost hebt, lees dan [de installatiehandleiding](https://yunohost.org/install), om te zien hoe je 'm installeert.*
 
-## Descripción general
+## Overzicht
 
 OliveTin gives safe and simple access to predefined shell commands from a web interface.
 
@@ -42,30 +42,30 @@ OliveTin gives safe and simple access to predefined shell commands from a web in
 - Good amount of unit tests and style checks - helps potential contributors be consistent, and helps with maintainability.
 
 
-**Versión actual:** 2024.09.02~ynh1
+**Geleverde versie:** 2024.09.02~ynh1
 
-## Capturas
+## Schermafdrukken
 
-![Captura de OliveTin](./doc/screenshots/example.jpg)
+![Schermafdrukken van OliveTin](./doc/screenshots/example.jpg)
 
-## Documentaciones y recursos
+## Documentatie en bronnen
 
-- Sitio web oficial: <https://www.olivetin.app>
-- Documentación administrador oficial: <https://docs.olivetin.app>
-- Repositorio del código fuente oficial de la aplicación : <https://github.com/OliveTin/OliveTin>
-- Catálogo YunoHost: <https://apps.yunohost.org/app/olivetin>
-- Reportar un error: <https://github.com/YunoHost-Apps/olivetin_ynh/issues>
+- Officiele website van de app: <https://www.olivetin.app>
+- Officiele beheerdersdocumentatie: <https://docs.olivetin.app>
+- Upstream app codedepot: <https://github.com/OliveTin/OliveTin>
+- YunoHost-store: <https://apps.yunohost.org/app/olivetin>
+- Meld een bug: <https://github.com/YunoHost-Apps/olivetin_ynh/issues>
 
-## Información para desarrolladores
+## Ontwikkelaarsinformatie
 
-Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/olivetin_ynh/tree/testing).
+Stuur je pull request alsjeblieft naar de [`testing`-branch](https://github.com/YunoHost-Apps/olivetin_ynh/tree/testing).
 
-Para probar la rama `testing`, sigue asÍ:
+Om de `testing`-branch uit te proberen, ga als volgt te werk:
 
 ```bash
 sudo yunohost app install https://github.com/YunoHost-Apps/olivetin_ynh/tree/testing --debug
-o
+of
 sudo yunohost app upgrade olivetin -u https://github.com/YunoHost-Apps/olivetin_ynh/tree/testing --debug
 ```
 
-**Mas informaciones sobre el empaquetado de aplicaciones:** <https://yunohost.org/packaging_apps>
+**Verdere informatie over app-packaging:** <https://yunohost.org/packaging_apps>
