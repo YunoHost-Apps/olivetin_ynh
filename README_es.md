@@ -42,7 +42,7 @@ OliveTin gives safe and simple access to predefined shell commands from a web in
 - Good amount of unit tests and style checks - helps potential contributors be consistent, and helps with maintainability.
 
 
-**Versión actual:** 2024.09.02~ynh1
+**Versión actual:** 2024.09.11~ynh1
 
 ## Capturas
 
@@ -58,7 +58,7 @@ OliveTin gives safe and simple access to predefined shell commands from a web in
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/olivetin_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/olivetin_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
