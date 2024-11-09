@@ -41,7 +41,6 @@ OliveTin gives safe and simple access to predefined shell commands from a web in
 - Lightweight on resources - uses only a few MB of RAM and barely any CPU. Written in Go, with a web interface written as a modern, responsive, Single Page App that uses the REST/gRPC API.
 - Good amount of unit tests and style checks - helps potential contributors be consistent, and helps with maintainability.
 
-
 **Поставляемая версия:** 2024.11.02~ynh1
 
 ## Снимки экрана
