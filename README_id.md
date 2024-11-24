@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # OliveTin untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/olivetin.svg)](https://ci-apps.yunohost.org/ci/apps/olivetin/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/olivetin.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/olivetin.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/olivetin)](https://ci-apps.yunohost.org/ci/apps/olivetin/)
+![Status kerja](https://apps.yunohost.org/badge/state/olivetin)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/olivetin)
 
 [![Pasang OliveTin dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=olivetin)
 
@@ -42,7 +44,7 @@ OliveTin gives safe and simple access to predefined shell commands from a web in
 - Good amount of unit tests and style checks - helps potential contributors be consistent, and helps with maintainability.
 
 
-**Versi terkirim:** 2024.11.18~ynh1
+**Versi terkirim:** 2024.11.24~ynh1
 
 ## Tangkapan Layar
 

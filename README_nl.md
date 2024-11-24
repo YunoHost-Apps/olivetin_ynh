@@ -5,7 +5,9 @@ Hij mag NIET handmatig aangepast worden.
 
 # OliveTin voor Yunohost
 
-[![Integratieniveau](https://dash.yunohost.org/integration/olivetin.svg)](https://ci-apps.yunohost.org/ci/apps/olivetin/) ![Mate van functioneren](https://ci-apps.yunohost.org/ci/badges/olivetin.status.svg) ![Onderhoudsstatus](https://ci-apps.yunohost.org/ci/badges/olivetin.maintain.svg)
+[![Integratieniveau](https://apps.yunohost.org/badge/integration/olivetin)](https://ci-apps.yunohost.org/ci/apps/olivetin/)
+![Mate van functioneren](https://apps.yunohost.org/badge/state/olivetin)
+![Onderhoudsstatus](https://apps.yunohost.org/badge/maintained/olivetin)
 
 [![OliveTin met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=olivetin)
 
@@ -42,7 +44,7 @@ OliveTin gives safe and simple access to predefined shell commands from a web in
 - Good amount of unit tests and style checks - helps potential contributors be consistent, and helps with maintainability.
 
 
-**Geleverde versie:** 2024.11.18~ynh1
+**Geleverde versie:** 2024.11.24~ynh1
 
 ## Schermafdrukken
 
