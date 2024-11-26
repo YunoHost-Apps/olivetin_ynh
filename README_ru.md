@@ -5,7 +5,9 @@
 
 # OliveTin для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/olivetin.svg)](https://ci-apps.yunohost.org/ci/apps/olivetin/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/olivetin.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/olivetin.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/olivetin)](https://ci-apps.yunohost.org/ci/apps/olivetin/)
+![Состояние работы](https://apps.yunohost.org/badge/state/olivetin)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/olivetin)
 
 [![Установите OliveTin с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=olivetin)
 
@@ -42,7 +44,7 @@ OliveTin gives safe and simple access to predefined shell commands from a web in
 - Good amount of unit tests and style checks - helps potential contributors be consistent, and helps with maintainability.
 
 
-**Поставляемая версия:** 2024.11.18~ynh1
+**Поставляемая версия:** 2024.11.24~ynh1
 
 ## Снимки экрана
 
