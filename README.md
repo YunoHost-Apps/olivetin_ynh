@@ -48,7 +48,7 @@ OliveTin gives safe and simple access to predefined shell commands from a web in
 
 ## Screenshots
 
-![Screenshot of OliveTin](./doc/screenshots/example.jpg)
+![Screenshot of OliveTin](./doc/screenshots/screenshotDesktop.png)
 
 ## Documentation and resources
 
