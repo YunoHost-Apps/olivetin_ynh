@@ -1,22 +1,22 @@
 <!--
-Este archivo README esta generado automaticamente<https://github.com/YunoHost/apps/tree/master/tools/readme_generator>
-No se debe editar a mano.
+N.B.: Aquest README ha estat generat automàticament per <https://github.com/YunoHost/apps/tree/master/tools/readme_generator>
+NO s'ha de modificar manualment.
 -->
 
-# OliveTin para YunoHost
+# OliveTin per YunoHost
 
-[![Nivel de integración](https://apps.yunohost.org/badge/integration/olivetin)](https://ci-apps.yunohost.org/ci/apps/olivetin/)
-![Estado funcional](https://apps.yunohost.org/badge/state/olivetin)
-![Estado En Mantención](https://apps.yunohost.org/badge/maintained/olivetin)
+[![Nivell d'integració](https://apps.yunohost.org/badge/integration/olivetin)](https://ci-apps.yunohost.org/ci/apps/olivetin/)
+![Estat de funcionament](https://apps.yunohost.org/badge/state/olivetin)
+![Estat de manteniment](https://apps.yunohost.org/badge/maintained/olivetin)
 
-[![Instalar OliveTin con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=olivetin)
+[![Instal·la OliveTin amb YunoHosth](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=olivetin)
 
-*[Leer este README en otros idiomas.](./ALL_README.md)*
+*[Llegeix aquest README en altres idiomes.](./ALL_README.md)*
 
-> *Este paquete le permite instalarOliveTin rapidamente y simplement en un servidor YunoHost.*  
-> *Si no tiene YunoHost, visita [the guide](https://yunohost.org/install) para aprender como instalarla.*
+> *Aquest paquet et permet instal·lar OliveTin de forma ràpida i senzilla en un servidor YunoHost.*  
+> *Si no tens YunoHost, consulta [la guia](https://yunohost.org/install) per saber com instal·lar-lo.*
 
-## Descripción general
+## Visió general
 
 OliveTin gives safe and simple access to predefined shell commands from a web interface.
 
@@ -44,25 +44,25 @@ OliveTin gives safe and simple access to predefined shell commands from a web in
 - Good amount of unit tests and style checks - helps potential contributors be consistent, and helps with maintainability.
 
 
-**Versión actual:** 2025.3.23~ynh1
+**Versió inclosa:** 2025.3.23~ynh1
 
-## Capturas
+## Captures de pantalla
 
-![Captura de OliveTin](./doc/screenshots/screenshotDesktop.png)
+![Captures de pantalla de OliveTin](./doc/screenshots/screenshotDesktop.png)
 
-## Documentaciones y recursos
+## Documentació i recursos
 
-- Sitio web oficial: <https://www.olivetin.app>
-- Documentación administrador oficial: <https://docs.olivetin.app>
-- Repositorio del código fuente oficial de la aplicación : <https://github.com/OliveTin/OliveTin>
-- Catálogo YunoHost: <https://apps.yunohost.org/app/olivetin>
+- Lloc web oficial de l'aplicació: <https://www.olivetin.app>
+- Documentació oficial per l'administrador: <https://docs.olivetin.app>
+- Repositori oficial del codi de l'aplicació: <https://github.com/OliveTin/OliveTin>
+- Botiga YunoHost: <https://apps.yunohost.org/app/olivetin>
 - Reportar un error: <https://github.com/YunoHost-Apps/olivetin_ynh/issues>
 
-## Información para desarrolladores
+## Informació per a desenvolupadors
 
-Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/olivetin_ynh/tree/testing).
+Envieu les pull request a la [branca `testing`](https://github.com/YunoHost-Apps/olivetin_ynh/tree/testing).
 
-Para probar la rama `testing`, sigue asÍ:
+Per provar la branca `testing`, procedir com descrit a continuació:
 
 ```bash
 sudo yunohost app install https://github.com/YunoHost-Apps/olivetin_ynh/tree/testing --debug
@@ -70,4 +70,4 @@ o
 sudo yunohost app upgrade olivetin -u https://github.com/YunoHost-Apps/olivetin_ynh/tree/testing --debug
 ```
 
-**Mas informaciones sobre el empaquetado de aplicaciones:** <https://yunohost.org/packaging_apps>
+**Més informació sobre l'empaquetatge d'aplicacions:** <https://yunohost.org/packaging_apps>

@@ -62,7 +62,7 @@ OliveTin gives safe and simple access to predefined shell commands from a web in
 
 Bidali `pull request`a [`testing` abarrera](https://github.com/YunoHost-Apps/olivetin_ynh/tree/testing).
 
-`testing` abarra probatzeko, ondorengoa egin:
+`testing` abarra probatzeko, honakoa egin:
 
 ```bash
 sudo yunohost app install https://github.com/YunoHost-Apps/olivetin_ynh/tree/testing --debug
