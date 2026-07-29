@@ -7,7 +7,7 @@ name = "OliveTin"
 description.en = "Gives safe and simple access to predefined shell commands from a web interface"
 description.fr = "Fournit un accès simple et sécurisé par une interface web à des commandes shell prédéfinies"
 
-version = "3000.17.4~ynh1"
+version = "3000.18.0~ynh1"
 
 maintainers = ["Salamandar"]
 
@@ -38,11 +38,11 @@ ram.runtime = "50M"
 
 [resources]
     [resources.sources.main]
-    amd64.url = "https://github.com/OliveTin/OliveTin/releases/download/3000.17.4/OliveTin-linux-amd64.tar.gz"
-    amd64.sha256 = "2b8b298266e79ebfdb76345cb8382e3283993995a0f982c0d7e5a9637250667e"
+    amd64.url = "https://github.com/OliveTin/OliveTin/releases/download/3000.18.0/OliveTin-linux-amd64.tar.gz"
+    amd64.sha256 = "1013da2e8e9ccac927706ba54b025efad45a9679855dfdf91123aa9db06a4e49"
 
-    arm64.url = "https://github.com/OliveTin/OliveTin/releases/download/3000.17.4/OliveTin-linux-arm64.tar.gz"
-    arm64.sha256 = "5e380664b6ad013e26f9ddcc805145a3eb4ec499d3c6378f052f494e6d8a31b0"
+    arm64.url = "https://github.com/OliveTin/OliveTin/releases/download/3000.18.0/OliveTin-linux-arm64.tar.gz"
+    arm64.sha256 = "23c17069807ca4e87722a8bb45aeb95a165ff9825f169b7c1543e155ab36efa9"
 
     autoupdate.strategy = "latest_github_release"
     autoupdate.asset.amd64 = ".*-linux-amd64.tar.gz"
